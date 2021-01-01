@@ -3,8 +3,8 @@ PHP is a general-purpose scripting language especially suited to web development
 
 source : [wikipedia](https://en.wikipedia.org/wiki/PHP)
 
-# algorithm
-## content
+# content
+## algorithm
 - [algorithm](https://github.com/kloter2surga/phpSourceCode/tree/main/algo)
   - [data structure](https://github.com/kloter2surga/phpSourceCode/tree/main/algo/dataStruecture)
   - [graph](https://github.com/kloter2surga/phpSourceCode/tree/main/algo/graph)
@@ -12,7 +12,5 @@ source : [wikipedia](https://en.wikipedia.org/wiki/PHP)
   - [searching](https://github.com/kloter2surga/phpSourceCode/tree/main/searching)
   - [sorting](https://github.com/kloter2surga/phpSourceCode/tree/main/sorting)
   - [string](https://github.com/kloter2surga/phpSourceCode/tree/main/string)
-
-# other
-## content
+## other
 - [database](https://github.com/kloter2surga/phpSourceCode/tree/main/database)
