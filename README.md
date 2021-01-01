@@ -10,3 +10,9 @@ source : [wikipedia](https://en.wikipedia.org/wiki/PHP)
   - [graph](https://github.com/kloter2surga/phpSourceCode/tree/main/algo/graph)
   - [math](https://github.com/kloter2surga/phpSourceCode/tree/main/math)
   - [searching](https://github.com/kloter2surga/phpSourceCode/tree/main/searching)
+  - [sorting](https://github.com/kloter2surga/phpSourceCode/tree/main/sorting)
+  - [string](https://github.com/kloter2surga/phpSourceCode/tree/main/string)
+
+# other
+## content
+- [database](https://github.com/kloter2surga/phpSourceCode/tree/main/database)
