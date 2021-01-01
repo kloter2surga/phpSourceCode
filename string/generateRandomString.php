@@ -1,31 +1,32 @@
-<?php
-function selection_sort(array $list)
-{
-    $newList = [];
+<?php 
+  
+function RandomStringGenerator($n) 
+{ 
 
-    $listSize = sizeof($list);
-
-    for ($i = 0; $i < $listSize; $i++) {
-        $smallest = find_smallest($list);
-        array_push($newList, $list[$smallest]);
-        array_splice($list, $smallest, 1);
-    }
-
-    return $newList;
-}
-function find_smallest(array $list)
-{
-    $smallest = $list[0];
-    $smallestIndex = 0;
-
-    foreach ($list as $key => $item) {
-        if ($list[$key] < $smallest) {
-            $smallest = $list[$key];
-            $smallestIndex = $key;
-        }
-    }
-
-    return $smallestIndex;
-}
-
-var_dump(selection_sort([5, 3, 6, 2, 10])); // => [2, 3, 5, 6, 10]
+    $generated_string = ""; 
+    $domain = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"; 
+      
+    // Find the lenght of created string 
+    $len = strlen($domain); 
+      
+    // Loop to create random string 
+    for ($i = 0; $i < $n; $i++) 
+    { 
+        // Generate a random index to pick 
+        // characters 
+        $index = rand(0, $len - 1); 
+          
+        // Concatenating the character  
+        // in resultant string 
+        $generated_string = $generated_string . $domain[$index]; 
+    } 
+      
+    // Return the random generated string 
+    return $generated_string; 
+} 
+  
+// Driver code to test above function 
+$n = 5; 
+echo "Random String of length " . $n 
+   . " = " . RandomStringGenerator($n); 
+?>
