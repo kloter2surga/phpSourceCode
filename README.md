@@ -14,4 +14,7 @@ source : [wikipedia](https://en.wikipedia.org/wiki/PHP)
   - [sorting](https://github.com/kloter2surga/phpSourceCode/tree/main/sorting)
   - [string](https://github.com/kloter2surga/phpSourceCode/tree/main/string)
 ## other
+- [image processing](https://github.com/kloter2surga/phpSourceCode/tree/main/imageProcessing)
+- [cryptography](https://github.com/kloter2surga/phpSourceCode/tree/main/cryptograph)
 - [database](https://github.com/kloter2surga/phpSourceCode/tree/main/database)
+- [datetime](https://github.com/kloter2surga/phpSourceCode/tree/main/datetime)
